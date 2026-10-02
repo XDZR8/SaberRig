@@ -3,7 +3,7 @@
 
 bl_info = {
     "name": "SaberRig",
-    "author": "SaberRig Project",
+    "author": "XDZR8",
     "version": (0, 1, 0),
     "blender": (5, 1, 1),
     "location": "View3D > Sidebar > SaberRig",
