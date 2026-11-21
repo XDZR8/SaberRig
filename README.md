@@ -5,26 +5,6 @@
   <p>Rigging de personajes y controles de animación por perfiles para Blender</p>
   <p><strong>Current release: 1.0.5</strong> · <strong>Designed for Blender 5.1.1+</strong></p>
 </div>English · Español · Visual guide / Guía visual · Releases · Report an issue
-Visual examples / Ejemplos visuales: See the screenshots and workflow previews below to understand the expected interface, rig controls, and bone organization. / Consulta las capturas y ejemplos para conocer la interfaz, los controles del rig y la organización de huesos.
-
-Screenshots are illustrative; features depend on the selected armature and supported profile. / Las capturas son orientativas; las funciones dependen del armature y del perfil compatible.
-
-English
-What is SaberRig?
-SaberRig is a Blender add-on that helps turn compatible imported armatures into easier-to-animate character rigs. It provides profile-aware preparation, body and limb controls, FK/IK workflows, secondary motion tools, and validation features while aiming to preserve the original deformation skeleton.
-
-Its interface keeps all profile sections visible so users can discover the available workflows. When an armature does not match a profile, that profile's controls are shown as an informational, disabled preview rather than being offered as incompatible operations.
-
-Profiles in version 1.0.5:
-Profile	Intended workflow
-General / MMD	Shared rig foundation, body/COG controls, arm FK/IK, leg IK/FK tools where supported, finger controls, rig views, and secondary motion.
-Uma Musume	Uma/MMD hybrid armatures, profile-aware finger and thumb controls, limb FK/IK workflows, animation spaces, and secondary motion.
-FGO Arcade	Dedicated preparation pipeline, arm and leg FK/IK controls, auxiliary deformation links, foot/knee follow, pelvis and torso posing, and QA tools.
-Arknights: Endfield	AE biped control foundation, limb FK/IK integration, Foot Follow, rigid attachments, and bone collection organization. Segmented rigs follow a different, more limited workflow.
-
-
-See the visual guide for screenshots of the interface and each supported workflow.
-
 Profile recognition relies on the armature's structure and bone names. A visible profile does not mean every imported model of that game is automatically supported. Check the analysis and validation results before animating.
 Requirements and compatibility
 - Blender 5.1.1 is the project's development target. Other versions have not been universally validated.
